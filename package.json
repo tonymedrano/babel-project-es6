@@ -4,7 +4,7 @@
   "description": "settinog a es6 project with Babel",
   "main": "main.js",
   "scripts": {
-    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "god": "babel --presets es2015 js/main.js -o build/main.bundle.js && npm run start",
     "start": "http-server -p 9000"
   },
   "repository": {
