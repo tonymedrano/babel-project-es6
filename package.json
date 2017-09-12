@@ -1,0 +1,33 @@
+{
+  "name": "babel-project-es6",
+  "version": "1.0.0",
+  "description": "settinog a es6 project with Babel",
+  "main": "main.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server -p 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonymedrano/babel-project-es6.git"
+  },
+  "keywords": [
+    "es6",
+    "es5",
+    "javascript",
+    "babel",
+    "node"
+  ],
+  "author": "Tony Medrano <info@tonymedrano.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonymedrano/babel-project-es6/issues"
+  },
+  "homepage": "https://github.com/tonymedrano/babel-project-es6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.10.0"
+  }
+}
